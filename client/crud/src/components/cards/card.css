@@ -1,0 +1,39 @@
+.card--container{
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.card--container:hover{
+    background-color: black;
+    color: white;
+}
+.card--title{
+    font-family: "Segue UI",Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.card--dono{
+    margin-top: 5px;
+
+}
+.card--endereco{
+    margin-top: 5px;
+}
+.card--telefone{
+    margin-top: 5px;
+}
+.card--nome{
+    margin-top: 5px;
+}
+.card--idade{
+    margin-top: 5px;
+}
+.card--tipo{
+    margin-top: 5px;
+}
+.card--raca{
+    margin-top: 5px;
+}

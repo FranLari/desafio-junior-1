@@ -6,23 +6,41 @@
 .register--container{
   padding:10px 20px;
   border: 3px solid black;
-  width: max-content;
+  width: 30%;
   height: max-content;
   border-radius: 5px;
   margin-top: 20px;
 
 }
-.register--title{
+.register--subtitulo{
   text-align: center;
   margin-bottom: 20px;
   font-family: monospace;
 }
+  .register--title{
+    margin-top: 20px;
+  }
+
 
 .register--input{
   display: block;
   padding: 7px 0;
   margin: 10px auto;
+  width: 90%;
+}
+.register--label{
+  display: block;
+  margin-left: 4%;
 }
 .register--button{
-  padding: 2px 5px;
+  padding: 9px 5px;
+  margin-left: 10%;
+  width: 80%;
+  background-color:black;
+  color: white;
+}
+.register--button:hover{
+  background-color: white;
+  border-color: black;
+  color: black;
 }
